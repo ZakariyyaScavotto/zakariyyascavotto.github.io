@@ -1,0 +1,20 @@
+/* Colors generated using coolors.co, https://coolors.co/0b0a07-e54b4b-52d1dc-7189ff-fdf0d5 */
+:root {
+	--smoky-black: #0b0a07ff;
+	--red-salsa: #e54b4bff;
+	--dark-turquoise: #52d1dcff;
+	--cornflower-blue: #7189ffff;
+	--papaya-whip: #fdf0d5ff;
+}
+.container,
+.navbar {
+	background-color: var(--smoky-black);
+	color: var(--papaya-whip);
+}
+
+a {
+	color: var(--papaya-whip);
+}
+#name {
+	margin-top: 0;
+}
