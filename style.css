@@ -6,15 +6,35 @@
 	--cornflower-blue: #7189ffff;
 	--papaya-whip: #fdf0d5ff;
 }
-.container,
-.navbar {
+body {
 	background-color: var(--smoky-black);
-	color: var(--papaya-whip);
 }
-
+.container,
+.navbar,
+#name {
+	color: var(--papaya-whip);
+	text-align: center;
+}
+.navbar {
+	font-size: 200%;
+}
+.container {
+	display: inline-block;
+	justify-items: center;
+}
 a {
 	color: var(--papaya-whip);
 }
 #name {
-	margin-top: 0;
+	margin-top: 10;
+}
+#pfp {
+	float: left;
+	margin-left: 20%;
+}
+#welcome {
+	width: 90%;
+	margin-right: 20%;
+	margin-top: 12%;
+	font-size: 150%;
 }
