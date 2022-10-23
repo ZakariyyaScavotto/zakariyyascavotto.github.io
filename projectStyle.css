@@ -30,11 +30,15 @@ a {
 }
 #pfp {
 	float: left;
-	margin-left: 20%;
+	margin-left: 15%;
+	margin-right: 2%;
 }
-#welcome {
+#projects {
 	width: 90%;
 	margin-right: 20%;
-	margin-top: 12%;
+	margin-top: 2%;
 	font-size: 150%;
+}
+#projectList {
+	font-size: 75%;
 }
