@@ -19,7 +19,7 @@ body {
 	font-size: 200%;
 }
 .container {
-	display: inline-block;
+	/* display: inline-block; */
 	justify-items: center;
 }
 a {
@@ -31,10 +31,11 @@ a {
 #pfp {
 	float: left;
 	margin-left: 20%;
+	margin-right: 2%;
 }
-#welcome {
-	width: 90%;
-	margin-right: 20%;
+#contact {
+	/* width: 90%; */
+	/* margin-right: 20%; */
 	margin-top: 12%;
-	font-size: 150%;
+	font-size: 250%;
 }
