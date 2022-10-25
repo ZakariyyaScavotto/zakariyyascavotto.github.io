@@ -6,6 +6,9 @@
 	--cornflower-blue: #7189ffff;
 	--papaya-whip: #fdf0d5ff;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: "Orbitron", sans-serif;
 	background-color: var(--smoky-black);
@@ -60,7 +63,7 @@ body {
 #about {
 	width: 90%;
 	margin-right: 20%;
-	margin-top: 12%;
+	margin-top: 5%;
 	font-size: 150%;
 }
 #pdfViewer {
