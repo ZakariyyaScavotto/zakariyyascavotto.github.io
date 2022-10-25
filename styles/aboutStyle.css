@@ -69,3 +69,6 @@ body {
 #about a {
 	color: var(--papaya-whip);
 }
+.active {
+	background-color: var(--red-salsa);
+}
