@@ -11,7 +11,11 @@ body {
 	background-color: var(--smoky-black);
 	margin: 0;
 	padding: 0;
+	/* funny blooper moment below */
+	/* animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite; */
+	place-items: center;
 }
+
 .container,
 .navbar,
 #name {
@@ -50,9 +54,52 @@ body {
 	display: inline-block;
 	justify-items: center;
 }
-
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
 #name {
-	margin-top: 10;
+	margin-top: 10px;
+}
+
+.animatable {
+	position: relative;
+	clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+	animation: 0.75s cubic-bezier(1, -0.01, 0.12, 0.8) 1s 1 reveal forwards;
+	color: var(--dark-turquoise);
+}
+
+.animatable::after {
+	content: "Zakariyya Scavotto";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--dark-turquoise);
+	color: var(--papaya-whip);
+	/* padding: inherit; */
+	animation: 0.75s cubic-bezier(1, -0.01, 0.12, 0.8) 1.75s 1 hideBlack forwards;
+}
+
+@keyframes reveal {
+	from {
+		clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+	}
+	to {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	}
+}
+
+@keyframes hideBlack {
+	from {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	}
+	to {
+		clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+	}
 }
 #pfp {
 	float: left;
