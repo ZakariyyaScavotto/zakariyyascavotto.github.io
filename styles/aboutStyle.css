@@ -67,7 +67,7 @@ body {
 .animatable {
 	position: relative;
 	clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
-	animation: 0.75s cubic-bezier(1, -0.01, 0.12, 0.8) 1s 1 reveal forwards;
+	animation: 0.5s cubic-bezier(1, -0.01, 0.12, 0.8) 1s 1 reveal forwards;
 	color: var(--dark-turquoise);
 }
 
