@@ -6,6 +6,9 @@
 	--cornflower-blue: #7189ffff;
 	--papaya-whip: #fdf0d5ff;
 }
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-family: "Orbitron", sans-serif;
 	background-color: var(--smoky-black);
@@ -14,7 +17,8 @@ body {
 }
 .container,
 .navbar,
-#name {
+#name,
+#projects {
 	color: var(--papaya-whip);
 	text-align: center;
 }
@@ -104,15 +108,37 @@ body {
 	margin-right: 2%;
 }
 #projects {
+	margin-top: 5%;
+	margin-bottom: 0;
+	width: auto;
+}
+#projectIntro {
 	width: 90%;
 	margin-right: 20%;
-	margin-top: 2%;
+	margin-top: 8%;
 	font-size: 150%;
 }
-#projectList {
-	font-size: 75%;
+
+#projectIntro a {
+	color: var(--papaya-whip);
 }
-#projects a {
+#projectList {
+	font-size: 150%;
+	list-style: none;
+	margin-bottom: 0;
+}
+.projectListItemLeft {
+	text-align: start;
+	width: 50%;
+	/* margin-bottom: 50%; */
+}
+.projectListItemRight {
+	text-align: end;
+	width: 50%;
+	/* margin-bottom: 50%; */
+}
+.projectListItemRight a,
+.projectListItemLeft a {
 	color: var(--papaya-whip);
 }
 .active {
