@@ -156,3 +156,10 @@ body {
 	height: 250px;
 	margin-right: 2%;
 }
+.endButton {
+	background: url("../images/topArrow.png");
+	cursor: pointer;
+	width: 250px;
+	height: 250px;
+	margin-right: 2%;
+}
