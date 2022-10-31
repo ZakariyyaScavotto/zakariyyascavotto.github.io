@@ -46,7 +46,7 @@
 		</div>
 		<div id="projects">
 			<ul id="projectList">
-				<li class="projectListItemLeft">
+				<li class="projectListItemLeft" id="firstProject">
 					<a
 						href="https://github.com/ZakariyyaScavotto/EEG-based-Emotion-Recognition-in-Music"
 						target="_blank"
@@ -59,14 +59,20 @@
 					could be connected, and it would predict the emotional response of the
 					wearer.
 				</li>
+				<button
+					class="buttonDown"
+					onClick="document.getElementById('secondProject').scrollIntoView();"
+					style="vertical-align: middle"
+				></button>
 				<img
 					src="../images/eegProjectScreenshot.png"
 					alt="EEG Project Demo Site Picture"
 					width="1000"
 					height="500"
+					style="vertical-align: middle"
 				/>
 				<br />
-				<li class="projectListItemRight">
+				<li class="projectListItemRight" id="secondProject">
 					<a
 						href="https://github.com/ZakariyyaScavotto/SSMIF-Fall-2022-Coding-Challenge"
 						target="_blank"
@@ -75,41 +81,57 @@
 					In Fall 2022, I applied to the Stevens Student Managed Investment Fund
 					(SSMIF). As the second round of the application, I had to solve a
 					Python coding challenge. The first question I solved had me calculate
-					various metrics (ex: Volatility, Sharpe Ratio) and do statistical
+					various metrics (like Volatility, Sharpe Ratio) and do statistical
 					tests on Coke and Tesla's stocks based on 2021 data, and for the
 					second challenge I did a stepwise linear regression, as well as a
 					Bayesian Ridge regression on polynomial transformed features for a
 					given dataset.
 				</li>
+				<button
+					class="buttonDown"
+					onClick="document.getElementById('thirdProject').scrollIntoView();"
+					style="vertical-align: middle"
+				></button>
 				<img
 					src="../images/bayesianRidgeRegression.png"
 					alt="Bayesian Ridge Regression Picture"
 					width="900"
 					height="420"
+					style="vertical-align: middle"
 				/>
 				<br />
-				<li class="projectListItemLeft">
+				<li class="projectListItemLeft" id="thirdProject">
 					<a
 						href="https://github.com/ZakariyyaScavotto/myNewTab"
 						target="_blank"
-						><b>My New Tab:</b></a
+						><b>My New Tab Website:</b></a
 					>
 					A website I created that I use as my browser's new tab page using
-					simple HTML, CSS and Javascript. You can take a look at it live
+					simple HTML, CSS and Javascript. It features links on the side to
+					sites I visit frequently, a clock on the top that I made using
+					Javascript, my "regular" schedule for the day on the right that I made
+					change days using Javascript, and a randomized inspirational quote in
+					the middle. You can take a look at it live
 					<a
 						href="https://zakariyyascavotto.github.io/myNewTab/"
 						target="_blank"
 						>here!</a
 					>
-					<img
-						src="../images/newTab.png"
-						alt="New Tab Page Picture"
-						width="1300"
-						height="600"
-					/>
 				</li>
+				<button
+					class="buttonDown"
+					onClick="document.getElementById('fourthProject').scrollIntoView();"
+					style="vertical-align: middle"
+				></button>
+				<img
+					src="../images/newTab.png"
+					alt="New Tab Page Picture"
+					width="900"
+					height="480"
+					style="vertical-align: middle"
+				/>
 				<br />
-				<li class="projectListItemRight">
+				<li class="projectListItemRight" id="fourthProject">
 					<a
 						href="https://github.com/ZakariyyaScavotto/redditScraping"
 						target="_blank"

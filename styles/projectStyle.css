@@ -111,6 +111,9 @@ body {
 	margin-top: 5%;
 	margin-bottom: 0;
 	width: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 #projectIntro {
 	width: 90%;
@@ -130,7 +133,7 @@ body {
 .projectListItemLeft {
 	text-align: start;
 	width: 50%;
-	/* margin-bottom: 50%; */
+	/* 	margin-right: 0; */
 }
 .projectListItemRight {
 	text-align: end;
@@ -144,4 +147,12 @@ body {
 
 .active {
 	background-color: var(--red-salsa);
+}
+
+.buttonDown {
+	background: url("../images/whiteDownArrow.jpg");
+	cursor: pointer;
+	width: 250px;
+	height: 250px;
+	margin-right: 2%;
 }
