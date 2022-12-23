@@ -10,7 +10,8 @@
 	--blue-500: #2196f3ff;
 	--blue-800: #1565c0ff;
 	--blue-900: #0d47a1ff;
-	--gray-100: #f5f5f5ff;
+	/* --gray-100: #f5f5f5ff; */
+	--gray-100: #fefefeff;
 	--gray-900: #212121ff;
 }
 html {
