@@ -11,9 +11,18 @@
 		<title>Zak's Projects</title>
 	</head>
 	<body>
-		<div class="navbar">
+		<div id="topnav" class="navbar">
 			<ul id="navList">
 				<li class="navListItem"><a href="./index.html">Home</a></li>
+				<li class="navListItem">
+					<a href="javascript:void(0)" id="dropdownIcon" onclick="openNavMenu()"
+						><img
+							src="../images/Hamburger_icon.png"
+							width="40"
+							height="40"
+							alt="Dropdown menu icon"
+					/></a>
+				</li>
 				<li class="navListItem"><a href="./about.html">About</a></li>
 				<li class="navListItem active">
 					<a href="./projects.html">Projects</a>
@@ -21,6 +30,13 @@
 				<li class="navListItem"><a href="./contact.html">Contact</a></li>
 			</ul>
 		</div>
+		<script>
+			function openNavMenu() {
+				var x = document.getElementById("topnav")
+				x.classList.toggle("responsive")
+				x.classList.toggle("navbar")
+			}
+		</script>
 		<div class="header">
 			<h1 class="animatable">My Projects</h1>
 		</div>
@@ -71,6 +87,7 @@
 					width="1000"
 					height="500"
 					style="vertical-align: middle"
+					id="eegImage"
 				/>
 				<br />
 				<li class="projectListItemRight" id="secondProject">
@@ -99,6 +116,7 @@
 					width="900"
 					height="420"
 					style="vertical-align: middle"
+					id="SSMIFImage"
 				/>
 				<br />
 				<li class="projectListItemLeft" id="thirdProject">
@@ -130,6 +148,7 @@
 					width="900"
 					height="480"
 					style="vertical-align: middle"
+					id="newTabImage"
 				/>
 				<br />
 				<br />
@@ -154,6 +173,7 @@
 					width="900"
 					height="600"
 					style="vertical-align: middle"
+					id="redditScrapingImage"
 				/>
 				<br />
 			</ul>

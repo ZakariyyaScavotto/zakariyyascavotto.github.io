@@ -24,8 +24,7 @@ body {
 	padding: 0;
 }
 .container,
-.navbar,
-#name {
+.navbar {
 	color: var(--gray-900);
 	text-align: center;
 }
@@ -33,6 +32,9 @@ body {
 	font-size: 200%;
 	background-color: var(--blue-50);
 	top: 0;
+}
+.navbar li:nth-child(2) {
+	display: none;
 }
 #navList {
 	list-style-type: none;
@@ -67,9 +69,6 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-#name {
-	margin-top: 10px;
 }
 
 .animatable {
@@ -120,14 +119,102 @@ body {
 	margin-top: 5%;
 	font-size: 150%;
 }
-#pdfViewer {
-	width: 75%;
-	height: 500px;
-	margin-top: 2.5%;
-}
 #about a {
 	color: var(--blue-500);
 }
 .active {
 	background-color: var(--blue-500);
+}
+#pdfViewer {
+	width: 75%;
+	height: 500px;
+	margin-top: 2.5%;
+}
+
+#dropdownIcon {
+	width: 30px;
+	height: 30px;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+#dropdownIcon:hover img {
+	content: url("../images/Hamburger_iconHover.png");
+}
+@media screen and (max-width: 600px) {
+	body {
+		width: 100vw;
+	}
+	.navbar {
+		font-size: 150%;
+		margin-left: 0;
+		margin-right: 0;
+		width: 100vw;
+	}
+	.navbar li:not(:nth-child(3)) {
+		display: none;
+	}
+	.navbar li:nth-child(2) {
+		display: block;
+		float: right;
+		width: 30vw;
+		margin-right: 0;
+	}
+	.animatable {
+		width: 100vw;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+	#pfp {
+		display: block;
+		width: 75vw;
+		height: 80vw;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+	}
+	#about {
+		width: 95vw;
+		font-size: 4vw;
+	}
+	#pdfViewer {
+		width: 92vw;
+		height: 95vw;
+	}
+}
+@media screen and (max-width: 600px) {
+	.responsive ul {
+		display: block;
+		text-align: left;
+		width: 100%;
+	}
+	.responsive {
+		color: var(--gray-900);
+		text-align: center;
+		font-size: 150%;
+		background-color: var(--blue-50);
+		top: 0;
+		width: 100vw;
+	}
+	.responsive li:first-child {
+		/* .responsive li.active a { */
+		display: block;
+		width: 75vw;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
+	.responsive li:nth-child(2) {
+		display: inline;
+		width: 25vw;
+		height: max-content;
+	}
+	.responsive li:is(:nth-child(3), :nth-child(4), :nth-child(5)) {
+		display: block;
+		width: 100vw;
+		float: left;
+		margin: 0;
+		padding: 0;
+	}
 }
