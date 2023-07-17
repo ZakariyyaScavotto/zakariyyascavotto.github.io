@@ -13,6 +13,10 @@
 	/* --gray-100: #f5f5f5ff; */
 	--gray-100: #fefefeff;
 	--gray-900: #212121ff;
+	--background-black: #050505;
+	--dim-gray: #736f72ff;
+	--platinum: #e8e8e8ff;
+	--silver: #bfbfbf;
 }
 /* random comment here */
 html {
@@ -20,19 +24,19 @@ html {
 }
 body {
 	font-family: "Orbitron", sans-serif;
-	background-color: var(--gray-100);
+	background-color: var(--background-black);
 	margin: 0;
 	padding: 0;
 }
 .container,
 .navbar,
 #projects {
-	color: var(--gray-900);
+	color: var(--platinum);
 	text-align: center;
 }
 .navbar {
 	font-size: 200%;
-	background-color: var(--blue-50);
+	background-color: var(--gray-900);
 	top: 0;
 }
 .navbar li:nth-child(2) {
@@ -52,7 +56,8 @@ body {
 	/* border-right: 1px solid var(--smoky-black); */
 }
 .navListItem a {
-	color: var(--smoky-black);
+	/* color: var(--smoky-black); */
+	color: var(--platinum);
 	text-decoration: none;
 	display: block;
 	text-align: center;
@@ -157,7 +162,7 @@ body {
 }
 
 .buttonDown {
-	background: url("../images/whiteDownArrow.jpg");
+	background: url("../images/whiteDownArrowDark.jpg");
 	cursor: pointer;
 	width: 250px;
 	height: 250px;
@@ -165,7 +170,7 @@ body {
 	border: none;
 }
 .endButton {
-	background: url("../images/topArrowv2.png");
+	background: url("../images/topArrowv2Dark.png");
 	cursor: pointer;
 	width: 250px;
 	height: 250px;
@@ -181,7 +186,7 @@ body {
 	text-align: center;
 }
 #dropdownIcon:hover img {
-	content: url("../images/Hamburger_iconHover.png");
+	content: url("../images/Hamburger_iconHoverDark.png");
 }
 @media screen and (max-width: 600px) {
 	body {
@@ -275,10 +280,10 @@ body {
 		width: 100%;
 	}
 	.responsive {
-		color: var(--gray-900);
+		color: var(--platinum);
 		text-align: center;
 		font-size: 150%;
-		background-color: var(--blue-50);
+		background-color: var(--gray-900);
 		top: 0;
 		width: 100vw;
 	}
