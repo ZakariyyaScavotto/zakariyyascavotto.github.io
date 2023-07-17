@@ -223,3 +223,93 @@ body {
 		padding: 0;
 	}
 }
+@media screen and (max-width: 1170px) and (min-width: 1067px) {
+	#about {
+		font-size: 130%;
+	}
+}
+@media screen and (max-width: 1067px) and (min-width: 972px) {
+	#about {
+		font-size: 120%;
+	}
+}
+@media screen and (max-width: 971px) and (min-width: 924px) {
+	#about {
+		font-size: 110%;
+	}
+}
+@media screen and (max-width: 923px) and (min-width: 900px) {
+	#about {
+		font-size: 100%;
+	}
+}
+@media screen and (max-width: 899px) and (min-width: 867px) {
+	#about {
+		margin-top: 60%;
+	}
+}
+@media screen and (max-width: 866px) and (min-width: 840px) {
+	#about {
+		margin-top: 62%;
+	}
+}
+@media screen and (max-width: 839px) and (min-width: 814px) {
+	#about {
+		margin-top: 64%;
+	}
+}
+@media screen and (max-width: 813px) and (min-width: 790px) {
+	#about {
+		margin-top: 66%;
+	}
+}
+@media screen and (max-width: 789px) and (min-width: 768px) {
+	#about {
+		margin-top: 68%;
+	}
+}
+@media screen and (max-width: 767px) and (min-width: 750px) {
+	#about {
+		margin-top: 70%;
+	}
+}
+@media screen and (max-width: 749px) and (min-width: 730px) {
+	#about {
+		margin-top: 72%;
+	}
+}
+@media screen and (max-width: 729px) and (min-width: 710px) {
+	#about {
+		margin-top: 74%;
+	}
+}
+@media screen and (max-width: 709px) and (min-width: 690px) {
+	#about {
+		margin-top: 76%;
+	}
+}
+@media screen and (max-width: 689px) and (min-width: 670px) {
+	#about {
+		margin-top: 78%;
+	}
+}
+@media screen and (max-width: 669px) and (min-width: 654px) {
+	#about {
+		margin-top: 80%;
+	}
+}
+@media screen and (max-width: 653px) and (min-width: 639px) {
+	#about {
+		margin-top: 82%;
+	}
+}
+@media screen and (max-width: 638px) and (min-width: 626px) {
+	#about {
+		margin-top: 84%;
+	}
+}
+@media screen and (max-width: 625px) and (min-width: 614px) {
+	#about {
+		margin-top: 86%;
+	}
+}

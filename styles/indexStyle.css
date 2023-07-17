@@ -213,3 +213,8 @@ body {
 		width: 20vw;
 	}
 }
+@media screen and (max-width: 841px) and (min-width: 770px) {
+	#welcome {
+		font-size: 123%;
+	}
+}
